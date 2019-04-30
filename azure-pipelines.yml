@@ -11,6 +11,14 @@ pool:
   inputs:
     platform: 'android'
   vmImage: 'Ubuntu-16.04'
+- task: CordovaBuild@1
+  inputs:
+    platform: 'android'
+    p12: 'fasdfasdfsdf'
+    p12pwd: 'fasdfasd'
+    provProfile: 'asdfasd'
+    removeProfile: true
+    xcodeDeveloperDir: 'asdfasdfasdf'
 
 steps:
 - script: echo Hello, world!
